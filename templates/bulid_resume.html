@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeForge - Build Your Perfect Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="build-page">
+    <header class="build-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Build Resume</a></li>
+                <li><a href="score_resume.html">Score Resume</a></li>
+                <li><a href="#contact" class="contact-btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="build-main">
+        <div class="build-title-container">
+            <h1 class="build-title">BUILD YOUR<br>PERFECT RESUME</h1>
+            <img src="/images/writer.jpg" alt="Person typing" class="build-hero-image">
+        </div>
+
+        <form class="build-form">
+            <h2 class="build-subtitle">Your Information</h2>
+            
+            <div class="build-form-row">
+                <input type="text" placeholder="Name" class="build-input">
+                <input type="email" placeholder="Email" class="build-input">
+            </div>
+            <div class="build-form-row">
+                <input type="tel" placeholder="Phone Number" class="build-input">
+                <input type="text" placeholder="Address" class="build-input">
+            </div>
+            <input type="url" placeholder="LinkedIn Profile" class="build-input full-width">
+
+            <div class="build-section">
+                <h3 class="build-section-title">Education <span class="build-add-more">add more</span></h3>
+                <div class="build-form-row">
+                    <input type="text" placeholder="Degree" class="build-input">
+                    <input type="text" placeholder="Institute" class="build-input">
+                </div>
+                <div class="build-form-row">
+                    <input type="number" placeholder="Percentage" class="build-input">
+                    <input type="number" placeholder="Year" class="build-input">
+                </div>
+            </div>
+
+            <div class="build-section">
+                <h3 class="build-section-title">Work Experience <span class="build-add-more">add more</span></h3>
+                <div class="build-form-row">
+                    <input type="text" placeholder="Title" class="build-input">
+                    <input type="text" placeholder="Company" class="build-input">
+                </div>
+                <div class="build-form-row">
+                    <input type="date" placeholder="Start Date" class="build-input">
+                    <input type="date" placeholder="End Date" class="build-input">
+                </div>
+                <label class="build-checkbox-container">
+                    <input type="checkbox" class="build-checkbox">
+                    <span class="build-checkmark"></span>
+                    Currently work here
+                </label>
+                <textarea placeholder="Description" class="build-textarea"></textarea>
+            </div>
+
+            <div class="build-section">
+                <h3 class="build-section-title">Certifications <span class="build-add-more">add more</span></h3>
+                <div class="build-form-row">
+                    <input type="text" placeholder="Name" class="build-input">
+                    <input type="text" placeholder="Issuing Organization" class="build-input">
+                </div>
+                <div class="build-form-row">
+                    <input type="date" placeholder="Issuing date" class="build-input">
+                    <input type="url" placeholder="Certificate Link" class="build-input">
+                </div>
+            </div>
+
+            <div class="build-section">
+                <h3 class="build-section-title">Projects <span class="build-add-more">add more</span></h3>
+                <div class="build-form-row">
+                    <input type="text" placeholder="Title" class="build-input">
+                    <input type="url" placeholder="Project Link" class="build-input">
+                </div>
+                <textarea placeholder="Description" class="build-textarea"></textarea>
+            </div>
+
+            <div class="build-button-group">
+                <button type="submit" class="build-generate-btn">Generate Resume</button>
+                <button type="button" class="build-download-btn">Download</button>
+            </div>
+            <p class="build-file-name">Resume.pdf</p>
+        </form>
+    </main>
+
+    <footer class="build-footer">
+        <div class="build-footer-content">
+            <h3>ResumeForge</h3>
+            <p>Jharkhand, India</p>
+        </div>
+        <div class="build-footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Information</a>
+        </div>
+    </footer>
+
+    <script src="build-resume-script.js"></script>
+</body>
+</html>

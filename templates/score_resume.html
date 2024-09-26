@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeForge - Score Your Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="score-page">
+    <header class="score-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bulid_resume.html">Build Resume</a></li>
+                <li><a href="#score">Score Resume</a></li>
+                <li><a href="#contact" class="contact-btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="score-main">
+        <div class="score-content-wrapper">
+            <img src="/images/system.png" alt="Resume Scoring Dashboard" class="score-hero-image">
+            <h1 class="score-title">SCORE YOUR RESUME<br>WITH JOB<br>DESCRIPTION</h1>
+        </div>
+        
+        <div class="score-container">
+            <h2 class="score-subtitle">Job Description</h2>
+            <textarea id="job-description" class="score-textarea" rows="10"></textarea>
+            <button id="upload-btn" class="score-upload-btn">Upload Resume</button>
+            <div id="score-display" class="score-display">
+                <span>Score : </span>
+                <span id="score-value">76</span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="score-footer">
+        <div class="score-footer-content">
+            <h3>ResumeForge</h3>
+            <p>Jharkhand, India</p>
+        </div>
+        <div class="score-footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Information</a>
+        </div>
+    </footer>
+
+    <script src="score-resume-script.js"></script>
+</body>
+</html>
